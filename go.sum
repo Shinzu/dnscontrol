@@ -12,6 +12,8 @@ github.com/aws/aws-sdk-go v0.0.0-20171109001453-50411bcf38b6/go.mod h1:ZRmQr0Faj
 github.com/bgentry/speakeasy v0.1.0/go.mod h1:+zsyZBPWlz7T6j88CTgSN5bM796AkVf0kBD4zp0CCIs=
 github.com/billputer/go-namecheap v0.0.0-20170915210158-0c7adb0710f8 h1:sIv3xbwhhAG94a62Q/rrSBtrWcXiYgldNOeqifyKSgo=
 github.com/billputer/go-namecheap v0.0.0-20170915210158-0c7adb0710f8/go.mod h1:bqqNsI2akL+lLWyApkYY0cxquWPKwEBU0Wd3chi3TEg=
+github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/digitalocean/godo v0.0.0-20170706200301-34840385860d h1:eHbjszRsTq4t0WTZljee/N5n1FW24l58FpVUlgD9Vfk=
 github.com/digitalocean/godo v0.0.0-20170706200301-34840385860d/go.mod h1:h6faOIcZ8lWIwNQ+DN7b3CgX4Kwby5T+nbpNqkUIozU=
@@ -81,6 +83,8 @@ github.com/philhug/opensrs-go v0.0.0-20171126225031-9dfa7433020d h1:nf4+lHs8TQeI
 github.com/philhug/opensrs-go v0.0.0-20171126225031-9dfa7433020d/go.mod h1:VDIGNBy0tHXMDAu4gxHFQJDq3NuwqUxw2Kok7wi+6ck=
 github.com/pkg/errors v0.0.0-20170316201538-ff09b135c25a h1:wJ8mL5Lj13kTUhKlQitC4+gqMyiuy+2anApUMuvfLq0=
 github.com/pkg/errors v0.0.0-20170316201538-ff09b135c25a/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
+github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
+github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/posener/complete v1.1.1/go.mod h1:em0nMJCgc9GFtwrmVmEMR/ZL6WyhyjMBndrE9hABlRI=
 github.com/prasmussen/gandi-api v0.0.0-20180224132202-58d3d4205661 h1:Frjzb2MZatv22HHLQ6BVv2rFBnYxITOk/tePom2DY0o=
 github.com/prasmussen/gandi-api v0.0.0-20180224132202-58d3d4205661/go.mod h1:zZBfqqLFWgViJUcsGfFksd9RK9pDUVPkYDiWE/uIHy4=
@@ -93,9 +97,16 @@ github.com/ryanuber/go-glob v1.0.0 h1:iQh3xXAumdQ+4Ufa5b25cRpC5TYKlno6hsv6Cb3pkB
 github.com/ryanuber/go-glob v1.0.0/go.mod h1:807d1WSdnB0XRJzKNil9Om6lcp/3a0v4qIHxIXzX/Yc=
 github.com/softlayer/softlayer-go v0.0.0-20170804160555-5e1c8cccc730 h1:NFtcXPhyIM81jGPrxh5OvdRM1esrM2lIYlO0SFm3KOg=
 github.com/softlayer/softlayer-go v0.0.0-20170804160555-5e1c8cccc730/go.mod h1:Cw4GTlQccdRGSEf6KiMju767x0NEHE0YIVPJSaXjlsw=
+github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
+github.com/stretchr/testify v1.3.0 h1:TivCn/peBQ7UY8ooIcPgZFpTNSz0Q2U6UrFlUfqbe0Q=
+github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=
+github.com/tdewolff/buffer v1.1.0 h1:NpNuBqn78WinZjWlJvr0SvCiNKOObr+bIC6VL7QZZIE=
 github.com/tdewolff/buffer v1.1.0/go.mod h1:2aVmbfts5BiODsIH0lFp+FX5BiqjSS7P7+cKqieIAb0=
+github.com/tdewolff/minify v0.0.0-20170910185944-d515420d53ba h1:B8UErRF4vQbPjweLKqwmXT7DtqGEixOqPqhwZAHg2S8=
 github.com/tdewolff/minify v0.0.0-20170910185944-d515420d53ba/go.mod h1:9Ov578KJUmAWpS6NeZwRZyT56Uf6o3Mcz9CEsg8USYs=
+github.com/tdewolff/parse v2.2.0+incompatible h1:U0qTU+Hs57RaV/w2ZDPciOnEVgDDuXBU7CuA3p06qow=
 github.com/tdewolff/parse v2.2.0+incompatible/go.mod h1:8oBwCsVmUkgHO8M5iCzSIDtpzXOT0WXX9cWhz+bIzJQ=
+github.com/tdewolff/strconv v1.0.0 h1:24XNqjjvOsomnQpeNgk2YAhjH8CsDhlXsF1Jru+wYw0=
 github.com/tdewolff/strconv v1.0.0/go.mod h1:GsDKvhaPwpcoLZ2SVdfZ0oLc4+X5OT6fabULs+cQGec=
 github.com/tent/http-link-go v0.0.0-20130702225549-ac974c61c2f9 h1:/Bsw4C+DEdqPjt8vAqaC9LAqpAQnaCQQqmolqq3S1T4=
 github.com/tent/http-link-go v0.0.0-20130702225549-ac974c61c2f9/go.mod h1:RHkNRtSLfOK7qBTHaeSX1D6BNpI3qw7NTxsmNr4RvN8=

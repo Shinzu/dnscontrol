@@ -41,6 +41,7 @@ require (
 	github.com/robertkrimen/otto v0.0.0-20170818085146-a813c59b1b44
 	github.com/ryanuber/go-glob v1.0.0 // indirect
 	github.com/softlayer/softlayer-go v0.0.0-20170804160555-5e1c8cccc730
+	github.com/stretchr/testify v1.3.0
 	github.com/tdewolff/buffer v1.1.0
 	github.com/tdewolff/minify v0.0.0-20170910185944-d515420d53ba
 	github.com/tdewolff/parse v2.2.0+incompatible
